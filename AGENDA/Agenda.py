@@ -6,7 +6,6 @@ def salvar_contatos(lista):
 
     arquivo.close()
 
-
 def carregar_contatos():
     lista = []
 
@@ -29,7 +28,6 @@ def carregar_contatos():
         pass
 
     return lista
-
 
 def existe_contato(lista, email):
     if len(lista)> 0:
@@ -61,10 +59,6 @@ def adicionar(lista):
     lista.append(contato)
 
     print("O contato foi cadastrado com sucesso!\n".format(contato['nome']))
-
-
-
-
 
 def alterar(lista):
     print(" == ALTERAR CONTATO == ")
